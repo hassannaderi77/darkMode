@@ -1,0 +1,10 @@
+.appContainer {
+    background: #f3f4f6;
+    height: 100vh;
+}
+
+/* dark mode */
+
+.appContainer.dark {
+    background-color: rgb(17, 24, 39);
+}

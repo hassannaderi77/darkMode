@@ -1,0 +1,46 @@
+.card {
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+ }
+ .card .icon {
+    font-size: 100px;
+    background: rgb(243 244 246);
+    color: rgb(92, 92, 92);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+ }
+ 
+ .card h2 {
+    margin-bottom: 16px;
+ }
+ 
+ .card p {
+    color: rgb(89, 89, 89);
+ }
+ 
+ /* dark mode */
+ 
+ .card.dark {
+    background: rgb(36 42 56);
+ }
+ 
+ .card.dark .icon {
+    background: rgb(51 60 76);
+    color: rgb(158 175 201);
+ }
+ 
+ .card.dark h2 {
+    color: #fff;
+ }
+ .card.dark p {
+    color: rgb(126, 139, 158);
+ }
+ 
